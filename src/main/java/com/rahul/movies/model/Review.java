@@ -15,6 +15,11 @@ public class Review {
 		this.id = id;
 		this.body = body;
 	}
+    
+	public Review(String body) {
+		super();
+		this.body = body;
+	}
 
 	public Review() {}
 
